@@ -1,0 +1,125 @@
+.text-field {
+    background-color: #F5F7FA;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    height: 44px;
+}
+
+.text-field:focus {
+    background-color: #F5F7FA;
+    box-shadow: none;
+}
+
+.text-field-white {
+    background-color: #ffffff;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    height: 44px;
+}
+
+.text-field-white:focus {
+    background-color: #ffffff;
+    box-shadow: none;
+}
+
+.bg-main {
+    background-color: #F5F7FA;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.w-200 {
+    font-weight: 200;
+}
+
+.w-300 {
+    font-weight: 300;
+}
+
+.w-400 {
+    font-weight: 400;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.center-left {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-shadow {
+    box-shadow: none;
+}
+
+.shadow-main {
+    box-shadow: #F5F7FA;
+}
+
+.round {
+    border-radius: 10px;
+}
+
+.fg-white {
+    color: white;
+}
+
+.img-blur {
+    width: auto;
+    height: auto;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.right {
+    float: right;
+}
+
+.radius-50 {
+    border-radius: 50px;
+}
+
+.radius-100 {
+    border-radius: 100px;
+}
+
+.icon-size {
+    width: 48px;
+    height: 48px;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.no-border {
+    border: none;
+}

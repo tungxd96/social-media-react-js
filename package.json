@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd server && nodemon server\" \"cd client && npm start\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/tungxd96/social-media-react-js/issues"
   },
-  "homepage": "https://github.com/tungxd96/social-media-react-js#readme"
+  "homepage": "https://github.com/tungxd96/social-media-react-js#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0"
+  }
 }
